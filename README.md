@@ -40,7 +40,7 @@ The Google Text Extractor is a Python project that utilizes Google Cloud Vision 
    python -m venv venv
    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 
-4. Install Dependencies:
+3. Install Dependencies:
    ```bash
    pip install -r requirements.txt
 
@@ -50,19 +50,18 @@ Download your service account key file from Google Cloud.
 Set the environment variable GOOGLE_APPLICATION_CREDENTIALS to point to your key file:
 export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/service-account-key.json"
 
-Usage
+## Usage
 Prepare Your Images: Place your images in a directory.
 
-Run the Script:
-
+1. Run the Script:
 Edit the main() function in image-text-extractor.py to specify the image_directory, search_text, and output_csv.
 Execute the script:
-bash
-Copy code
-python image-text-extractor.py
+   ```bash
+   python image-text-extractor.py
+
 Check Results: The results will be saved in the specified CSV file.
 
-Functions
+## Functions
 extract_text_from_image(image_path): Extracts and translates text from an image.
 process_images(directory, search_text): Processes images in a directory and matches them with the search text.
 rank_images(results, search_text): Ranks images based on the percentage of matches with the search text or by filename.
@@ -74,10 +73,10 @@ google-cloud-translate
 pandas
 re
 
-Contributing
+## Contributing
 Feel free to open issues or submit pull requests to contribute to this project. For major changes, please open an issue first to discuss what you would like to change.
 
-Contact
+## Contact
 For any questions or feedback, please reach out to ashishkumar.nitrr@gmail.com.
 
 
