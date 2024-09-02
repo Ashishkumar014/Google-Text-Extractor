@@ -7,7 +7,6 @@
 - **Installation**: Instructions for installing and setting up the project.
 - **Usage**: How to run the script and check results.
 - **Functions**: Brief overview of the key functions in the code.
-- **License**: Information about the project's license.
 - **Contributing**: Guidelines for contributing to the project.
 - **Contact**: How to get in touch for questions or feedback.
 
