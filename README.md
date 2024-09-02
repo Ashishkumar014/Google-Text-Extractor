@@ -36,11 +36,13 @@ The Google Text Extractor is a Python project that utilizes Google Cloud Vision 
    git clone https://github.com/your-username/google-text-extractor.git
    cd google-text-extractor
 2. Set Up Virtual Environment (Optional but recommended):
-python -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 
-3. Install Dependencies:
-pip install -r requirements.txt
+4. Install Dependencies:
+   ```bash
+   pip install -r requirements.txt
 
 Set Up Google Cloud Credentials:
 
