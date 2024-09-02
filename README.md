@@ -1,4 +1,4 @@
-# Google Text Extractor
+# Image Text Extractor
 
 ### Key Sections Explained:
 - **Overview**: Brief description of the project.
